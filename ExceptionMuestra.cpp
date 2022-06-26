@@ -5,8 +5,9 @@ using namespace std;
 
 // Def class Test
 class Test {
-	static int count; // Used static to initialise the scope
-					// Of 'count' till lifetime
+	
+	static int count; // Used static to initialise the scope of 'count' till lifetime
+					
 	int id;
 
 	public:
